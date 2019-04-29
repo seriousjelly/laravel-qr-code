@@ -14,7 +14,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "seriousjelly/qr-code": "^2.1"
+        "seriousjelly/qr-code": "^0.0.1"
     },
     "autoload": {
         "psr-4": {
