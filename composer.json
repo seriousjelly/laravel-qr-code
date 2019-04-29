@@ -1,0 +1,34 @@
+{
+    "name": "seriousjelly/laravel-qr-code",
+    "description": "QR Code Generator for PHP wrapper for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Bratherton",
+            "email": "brathertonchris@gmail.com"
+        },
+        {
+            "name": "Bruno Werneck",
+            "email": "brunovaulawerneck@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "seriousjelly/qr-code": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelQRCode\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelQRCode\\Providers\\QRCodeServiceProvider"
+            ],
+            "aliases": {
+                "QRCode": "LaravelQRCode\\Facades\\QRCode"
+            }
+        }
+    }
+}
